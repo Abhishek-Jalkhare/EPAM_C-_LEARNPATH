@@ -1,0 +1,1 @@
+add_executable(file_management_task_5 file_management_task_5.cpp)
