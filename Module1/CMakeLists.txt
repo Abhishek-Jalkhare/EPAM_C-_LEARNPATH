@@ -1,0 +1,3 @@
+add_subdirectory(pointers_arrays_basics)
+add_subdirectory(File_Managment)
+add_subdirectory(preproccesor_directives)
