@@ -1,0 +1,4 @@
+add_executable(module2_basic_memory_management_task1  Task1.cpp)
+add_executable(operOverlloading Operator_Overloading.cpp)
+add_executable(module2_basic_memory_management_task2 Task2.cpp )
+add_executable(module2_basic_memory_management_task3 Task3.cpp )
