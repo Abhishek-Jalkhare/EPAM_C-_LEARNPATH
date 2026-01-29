@@ -9,6 +9,7 @@ int main(int argc, char *argv[]) {
     queue<int> qu ;
     qu.back();
     qu.front();
+    // qu.s
     qu.push(1);
     qu.push(6);
     qu.push(5);
