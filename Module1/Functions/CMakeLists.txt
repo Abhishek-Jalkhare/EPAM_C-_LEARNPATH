@@ -1,0 +1,5 @@
+add_executable("Module_1_Functions_Task1" Task1.cpp)
+add_executable("Module_1_Functions_Task2" Task2.cpp)
+add_executable("Module_1_Functions_Task3" Task3.cpp)
+add_executable("Module_1_Functions_Task4" Task4.cpp)
+add_executable("Module_1_Functions_Task5" Task5.cpp)

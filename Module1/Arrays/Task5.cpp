@@ -1,3 +1,6 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
+//
 #include<iostream>
 using namespace std;
 
@@ -40,7 +43,7 @@ int main(int argc, char const *argv[])
     } else {
         cout<<"Addition and Subtraction not possible due to dimension mismatch."<<endl;
     }
-    
+
 
     return 0;
 }
@@ -69,7 +72,7 @@ void subtractMatrices(int rows, int cols, int ** mat1, int ** mat2, int ** resul
             result[i][j] = mat1[i][j] - mat2[i][j];
         }
     }
-}   
+}
 
 void multiplyMatrices(int r1 , int c1, int r2, int c2, int **mat1, int **mat2, int **result){
     for(int i=0;i<r1;i++){
@@ -99,4 +102,4 @@ void printMatrix(int rows, int cols, int **matrix){
         }
         cout<<endl;
     }
-}   
+}

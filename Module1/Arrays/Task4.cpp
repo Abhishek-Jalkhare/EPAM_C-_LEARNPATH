@@ -1,3 +1,6 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
+//
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -9,7 +12,7 @@ int binarySearch(int arr[], int n, int target);
 void printResult(int index, int key);
 
 int main(int argc, char const *argv[])
-{   
+{
     int n;
     cout << "Enter size of array: ";
     cin >> n;
@@ -24,9 +27,9 @@ int main(int argc, char const *argv[])
     int key;
     cin>>key;
 
-    int res = linearSearch(arr, n, key); 
+    int res = linearSearch(arr, n, key);
     printResult(res, key);
-    
+
     sort(arr , arr+n);
 
     res = binarySearch(arr, n, key);
@@ -83,4 +86,4 @@ void printResult(int index, int key){
     } else {
         cout << "Element " << key << " not found in the array." << endl;
     }
-}   
+}

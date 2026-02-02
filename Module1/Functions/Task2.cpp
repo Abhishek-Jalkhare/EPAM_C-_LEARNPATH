@@ -1,3 +1,6 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
+//
 #include <iostream>
 using namespace std;
 
@@ -6,7 +9,7 @@ char determineGrade(float average);
 void displayResults(float average, char grade , int numSubjects , int* marks);
 
 int main(int argc, char const *argv[])
-{   
+{
     int n ;
     cout<<"Enter number of subjects: ";
     cin>>n;
@@ -19,7 +22,7 @@ int main(int argc, char const *argv[])
     char grade = determineGrade(average);
     displayResults(average, grade , n , marks);
     delete[] marks;
-    
+
     return 0;
 }
 

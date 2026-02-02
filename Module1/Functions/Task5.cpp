@@ -1,3 +1,6 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
+//
 #include <iostream>
 using namespace std;
 
@@ -15,7 +18,7 @@ float term(float x, int n) {
     float power = 1.0f;
     int exponent = 2 * n - 1;
 
- 
+
     for (int i = 1; i <= exponent; i++) {
         power *= x;
     }
@@ -38,8 +41,6 @@ float sinTaylor(float x, int terms) {
 
     return sum;
 }
-// delete a;
-// delete [] a;
 
 int main() {
     float degree, radian;
@@ -51,10 +52,10 @@ int main() {
     cout << "Enter number of terms: ";
     cin >> terms;
 
-    
+
     radian = degree * 3.14159265f / 180.0f;
 
-    
+
     float result = sinTaylor(radian, terms);
 
     cout << "sin(" << degree << ") = " << result << endl;

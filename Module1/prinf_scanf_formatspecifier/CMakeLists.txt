@@ -1,0 +1,1 @@
+add_executable("Module1_printf_scanf_Task1" Task1.cpp)

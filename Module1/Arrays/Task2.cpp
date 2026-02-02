@@ -1,10 +1,13 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
+//
 #include<iostream>
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
     cout<<"enter the size of array"<<endl;
-    int n;  
+    int n;
     cin>>n;
     int *arr = new int[n];
     cout<<"enter the elements of array"<<endl;

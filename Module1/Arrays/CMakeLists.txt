@@ -1,0 +1,5 @@
+add_executable("Module1_Arrays_Task1" Task1.cpp)
+add_executable("Module1_Arrays_Task2" Task2.cpp)
+add_executable("Module1_Arrays_Task3" Task3.cpp)
+add_executable("Module1_Arrays_Task4" Task4.cpp)
+add_executable("Module1_Arrays_Task5" Task5.cpp)

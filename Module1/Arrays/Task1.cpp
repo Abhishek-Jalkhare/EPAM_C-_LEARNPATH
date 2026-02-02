@@ -1,3 +1,5 @@
+//
+// Created by AbhishekJalkhare on 02-02-2026.
 #include<iostream>
 using namespace std;
 
@@ -14,7 +16,7 @@ int main(int argc, char const *argv[])
     inputArray(arr, n);
     cout << "Sum of array elements: " << sumArray(arr, n) << endl;
     cout << "Average of array elements: " << calculateAverage(arr, n) << endl;
-    delete[] arr; 
+    delete[] arr;
 
 
     return 0;

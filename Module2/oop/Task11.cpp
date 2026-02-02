@@ -1,64 +1,89 @@
-//
-// Created by AbhishekJalkhare on 30-01-2026.
-//
-
 #include <iostream>
 using namespace std;
+// In virtual inheritance, the
+// virtual base class is
+//  constructed exactly once by the most derived class
+// ,
+//  must be default
+// -
+// constructible
+// if
+// intermediate classes are instantiated, and should be initialized only in the most derived
+// class
+// using initializer
+// lists
+// .
 
-class Device {
-
-    int id;
-    string name ;
+class Device { // if we define any constructor the ompiler do not genrate a default one
+    inline static int deviceCount = 0;
+    int id ;
+    string name;
 
 public:
-    Device(int id , const string &name) {
-        this->name = name;
-        this->id = id;
-        cout<<"Device intialised"<<endl;
+    Device(const int id, const string& name)
+        : id(id),
+          name(name) {
+        deviceCount++;
+        cout<<deviceCount<<" instance of device count present"<<endl;
     }
 
-    [[nodiscard]] int get_id() const {
-        return id;
+    void showDeviceInfo() const {
+        cout<<"Device Name : " << name<<endl;
+        cout<<"Device id : " << id<<endl;
     }
 
-    void set_id(const int id) {
-        this->id = id;
-    }
+    Device () = default;
 
-    [[nodiscard]] string get_name() const {
-        return name;
-    }
+    virtual ~Device() = default;
+};
 
-    void set_name(const string& name) {
-        this->name = name;
+class Phone :virtual public Device {
+protected:
+    string phoneModel; // if
+
+    explicit Phone(const string& phone_model)
+        : phoneModel(phone_model) {
     }
 };
 
-class Phone :  virtual public Device {
-public:
-    Phone(int id, const string& name ) : Device(id , name) {
-        cout << "Phone intialised" << endl;
+class Camera : virtual public Device {
+protected:
+    string megaPixel;
+
+    explicit Camera(const string& mega_pixel)
+        : megaPixel(mega_pixel)  {
     }
 };
 
-class Camera :  vir public  Device{
+class SmartPhone : public Phone , public Camera {
+    int price;
 public:
-    Camera(int id, const string& name) : Device(id,name){
-        cout<<"camera initialise"<<endl;
+    SmartPhone(int id, const string& name, const string& phoneModel, const string& megaPixel, int price) :
+        Device(id, name),
+       Phone(phoneModel),Camera(megaPixel), price(price) {
+
     }
 };
-
-
-class SmartPhone : public Camera , public Phone {
-public:
-    SmartPhone(int id , const string& name): Camera(id , name) , Phone(id , name) {
-        cout<<"Smart Phone is intialised"<<endl;
-    }
-};
-
 
 int main(int argc, char* argv[]) {
-    SmartPhone * p = new SmartPhone(1 , "a");
-    p->set_id(12);
-    delete p;
+    Device * d  = new SmartPhone(1 , "phone" , "3A" , "45mp" , 44334);
+    d->showDeviceInfo();
+    delete d;
 }
+
+
+// In virtual inheritance, the
+// virtual base is constructed exactly once by the most
+// -
+// derived class of
+//  the object being created
+// .
+// Therefore
+// ,
+//  the virtual base must either have a default constructor
+// or
+//  be explicitly initialized by every class that
+//  can be the most
+// -
+// derived
+// .
