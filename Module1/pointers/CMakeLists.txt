@@ -1,4 +1,6 @@
+add_executable("Module1_Pointers_Task1"  Task1.c)
 add_executable("Module1_Pointers_Task2"  Task2.c)
+add_executable("Module1_Pointers_Task3"  Task3.c)
 add_executable("Module1_Pointers_Task4"  Task4.cpp)
 add_executable("Module1_Pointers_Task5"  Task5.cpp)
 add_executable("Module1_Pointers_Task6"  Task6.cpp)
