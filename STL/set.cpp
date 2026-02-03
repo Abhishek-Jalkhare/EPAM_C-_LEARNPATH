@@ -37,7 +37,13 @@ int main(int argc, char *argv[]) {
     // for (int x : st) {
     //     cout<<x<<endl;
     // }
+    multiset<int  > mlt ;
+    mlt.insert(1);
+    mlt.insert(6);
+    mlt.insert(3);
+    mlt.insert(1);
 
+    cout<<*mlt.rbegin() ;
 
 
 
