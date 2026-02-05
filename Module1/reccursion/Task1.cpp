@@ -2,10 +2,10 @@
 using namespace std;
 
 
-int main(int argc, char const *argv[])
+ void main ()
 {
     /* code */
-    return 0;
+
 }
 
 

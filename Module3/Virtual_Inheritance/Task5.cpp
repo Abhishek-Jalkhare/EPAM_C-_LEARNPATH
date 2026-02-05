@@ -1,7 +1,8 @@
 //
-// Created by AbhishekJalkhare on 29-01-2026.
+// Created by AbhishekJalkhare on 05-02-2026.
 //
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Payment {
@@ -25,11 +26,11 @@ public:
 };
 
 int main(int argc, char* argv[]) {
-    Payment * p = new CreditCardPayment();
-    p->process(12.4);
 
-    p = new PayPalPayment();
-    p->process(124);
+    vector<Payment *> vec { new CreditCardPayment() ,new PayPalPayment() };
+    for (auto p : vec) {
+        p->process(12.4);
+        delete p;
+    }
 
-    delete p;
 }

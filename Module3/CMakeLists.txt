@@ -1,1 +1,2 @@
 add_subdirectory(Polymorphism)
+add_subdirectory(Virtual_Inheritance)

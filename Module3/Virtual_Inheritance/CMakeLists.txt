@@ -1,0 +1,6 @@
+add_executable("Module3_Virtual_Inheritance_Task1" Task1.cpp )
+add_executable("Module3_Virtual_Inheritance_Task2" Task2.cpp )
+add_executable("Module3_Virtual_Inheritance_Task3" Task3.cpp )
+add_executable("Module3_Virtual_Inheritance_Task4" Task4.cpp )
+add_executable("Module3_Virtual_Inheritance_Task5" Task5.cpp )
+add_executable("Module3_Virtual_Inheritance_Task6" Task6.cpp )

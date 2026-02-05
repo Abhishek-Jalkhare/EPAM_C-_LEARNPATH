@@ -7,3 +7,5 @@ add_executable(stack stack.cpp)
 add_executable(que que.cpp)
 add_executable(pq PriorityQueue.cpp)
 add_executable(set set.cpp)
+
+add_executable(temp temp.cpp)
