@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/CPP_DEV/out/build/x64-Debug/Module1/Arrays",
+	"dir-cur-src" : "C:/CPP_DEV/Module1/Arrays",
+	"dir-top-bld" : "C:/CPP_DEV/out/build/x64-Debug",
+	"dir-top-src" : "C:/CPP_DEV",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/CPP_DEV/out/build/x64-Debug/Module1/Arrays/CMakeFiles/Module1_Arrays_Task1.dir",
+	"sources" : 
+	{
+		"Module1/Arrays/CMakeFiles/Module1_Arrays_Task1.dir/Task1.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/CPP_DEV/Module1/Arrays/Task1.cpp"
+		}
+	}
+}

@@ -1,6 +1,7 @@
 //
 // Created by AbhishekJalkhare on 02-02-2026.
 //#include <iostream>
+#include <iostream>
 using namespace std;
 double intrest ( double , double , double);
 

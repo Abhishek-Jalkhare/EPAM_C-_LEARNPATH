@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module2\oop\CMakeFiles\tempp.dir\temp.cpp.obj: dyndep
+

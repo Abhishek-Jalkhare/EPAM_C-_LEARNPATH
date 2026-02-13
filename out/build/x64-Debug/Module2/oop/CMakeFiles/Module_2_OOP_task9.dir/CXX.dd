@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module2\oop\CMakeFiles\Module_2_OOP_task9.dir\task9.cpp.obj: dyndep
+

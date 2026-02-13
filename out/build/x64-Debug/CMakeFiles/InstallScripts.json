@@ -1,0 +1,35 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/CPP_DEV/out/build/x64-Debug/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/Arrays/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/control_flow/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/File_Managment/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/File_Managment/Task_5/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/File_Managment/Task_1/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/File_Managment/Task_3/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/operators/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/pointers/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/preproccesor_directives/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/prinf_scanf_formatspecifier/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/reccursion/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/structures/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module1/variables/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module2/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module2/Introduction/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module2/Basic_Memory_Management/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module2/oop/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module3/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module3/Polymorphism/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module3/Virtual_Inheritance/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module4/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module4/basics/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/Module4/Streams/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/STL/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/OOP/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/OOP/Polymorphism/cmake_install.cmake",
+		"C:/CPP_DEV/out/build/x64-Debug/MeetingTask/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

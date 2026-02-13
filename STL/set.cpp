@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
             cout<<x<<endl;
     }
     st.find(4);
-    st1.find(4);
+     st1.find(4);
     // if element not in set it return set.end()
 
     st.count(1);

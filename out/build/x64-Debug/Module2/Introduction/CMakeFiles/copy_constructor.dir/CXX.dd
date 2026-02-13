@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module2\Introduction\CMakeFiles\copy_constructor.dir\CopyConstructors.cpp.obj: dyndep
+

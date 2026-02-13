@@ -17,7 +17,7 @@ public:
 
 class Phone : public virtual Device {
 public:
-    Phone() {
+    Phone() : Device(0) {
         cout<<"phone constructor called"<<endl;
     }
 };

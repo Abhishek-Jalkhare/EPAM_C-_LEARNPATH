@@ -23,10 +23,10 @@ int addContact(
     if (!contacts || !size || !name || !phone)
         return 0;
 
-    struct Contact* temp = realloc(
+    struct Contact* temp =(struct Contact*) (realloc(
         *contacts,
         (*size + 1) * sizeof(struct Contact)
-    );
+    ));
 
     if (!temp)
         return 0;

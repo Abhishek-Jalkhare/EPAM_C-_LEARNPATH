@@ -7,27 +7,27 @@ using namespace std;
 
 class Base {
 public:
-    virtual void fun() {
-        cout<<"base fun"<<endl;
+    Base() {
+        cout<<"Constructor"<<endl;
     }
-    virtual ~Base() = default;
+    ~Base() {
+        cout<<"Destructor"<<endl;
+    }
 };
 
 class Derived : public Base {
 public:
-    void fun() override {
-        cout<<"Derived fun"<<endl;
+    Derived() {
+        cout<<"Derived constructor"<<endl;
+    }
+
+    ~Derived() {
+        cout<<"Derived destructor"<<endl;
     }
 
 };
 
 int main(int argc, char* argv[]) {
-    Base * a = new Derived();
-    a->fun();
-    Base * b = new Base();
-    b->fun();
-
-    delete a;
-    delete b;
+    Derived d;
 
 }

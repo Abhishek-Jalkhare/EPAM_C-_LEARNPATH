@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "OOP\\Polymorphism\\CMakeFiles\\OOP_Poly_overriding.dir\\overriding.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "OOP\\Polymorphism\\CMakeFiles\\OOP_Poly_overriding.dir\\overriding.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

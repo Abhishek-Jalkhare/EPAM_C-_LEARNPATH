@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module2\\oop\\CMakeFiles\\tempp.dir\\temp.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module2\\oop\\CMakeFiles\\tempp.dir\\temp.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

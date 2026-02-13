@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module1\pointers\CMakeFiles\Module1_Pointers_Task6.dir\Task6.cpp.obj: dyndep
+

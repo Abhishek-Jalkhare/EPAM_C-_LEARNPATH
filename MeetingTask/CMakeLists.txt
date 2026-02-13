@@ -1,0 +1,1 @@
+add_executable("Meeting_Task_const_pointers" const_pointers.c)

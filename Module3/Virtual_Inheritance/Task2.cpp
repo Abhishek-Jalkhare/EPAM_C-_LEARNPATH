@@ -37,7 +37,7 @@ protected:
     }
 };
 
-class Camera : public Device {
+class Camera :virtual public Device {
 protected:
     string megaPixel;
 

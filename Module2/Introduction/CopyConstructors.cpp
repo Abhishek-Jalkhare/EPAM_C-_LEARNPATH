@@ -16,3 +16,8 @@ public:
 
 };
 
+int main(int argc, char *argv[]) {
+    Student s1;
+    Student s2 = s1;
+}
+

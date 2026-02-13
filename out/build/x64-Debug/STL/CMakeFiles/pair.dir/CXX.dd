@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build STL\CMakeFiles\pair.dir\pair.cpp.obj: dyndep
+

@@ -16,7 +16,7 @@ int main() {
     cout << "Enter shipping zone (A, B, or C): ";
     cin >> zone;
 
-    t
+    
      if (weight <= 0 || weight > 100) {
          cout << "Error: Order weight must be positive.";
          return 0;

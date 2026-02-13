@@ -34,3 +34,4 @@ int main(int argc, char* argv[]) {
     ((Plant*)&hybrid)->show();
     // getting same address tells that the only one subobject exist
 }
+    

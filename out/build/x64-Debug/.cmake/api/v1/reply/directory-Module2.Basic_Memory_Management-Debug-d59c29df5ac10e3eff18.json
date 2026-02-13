@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Module2/Basic_Memory_Management",
+		"source" : "Module2/Basic_Memory_Management"
+	}
+}

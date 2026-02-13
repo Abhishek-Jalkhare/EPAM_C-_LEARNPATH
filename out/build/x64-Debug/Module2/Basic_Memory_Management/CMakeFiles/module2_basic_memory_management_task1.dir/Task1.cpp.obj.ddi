@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module2\\Basic_Memory_Management\\CMakeFiles\\module2_basic_memory_management_task1.dir\\Task1.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module2\\Basic_Memory_Management\\CMakeFiles\\module2_basic_memory_management_task1.dir\\Task1.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

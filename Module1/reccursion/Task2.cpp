@@ -2,6 +2,7 @@
 using namespace std;
 
 int cache[1001];
+int countWays(int n);
 
 
 int main(int argc, char const *argv[])

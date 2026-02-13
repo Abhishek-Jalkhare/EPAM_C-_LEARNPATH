@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module2\\Basic_Memory_Management\\CMakeFiles\\operOverlloading.dir\\Operator_Overloading.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module2\\Basic_Memory_Management\\CMakeFiles\\operOverlloading.dir\\Operator_Overloading.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module3\Virtual_Inheritance\CMakeFiles\Module3_Virtual_Inheritance_Task10.dir\Task10.cpp.obj: dyndep
+

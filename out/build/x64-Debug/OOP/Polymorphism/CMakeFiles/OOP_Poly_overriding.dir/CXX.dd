@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build OOP\Polymorphism\CMakeFiles\OOP_Poly_overriding.dir\overriding.cpp.obj: dyndep
+

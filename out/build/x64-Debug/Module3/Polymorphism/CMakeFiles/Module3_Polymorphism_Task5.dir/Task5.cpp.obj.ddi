@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module3\\Polymorphism\\CMakeFiles\\Module3_Polymorphism_Task5.dir\\Task5.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module3\\Polymorphism\\CMakeFiles\\Module3_Polymorphism_Task5.dir\\Task5.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

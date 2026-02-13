@@ -1,0 +1,3 @@
+add_executable(Module4_Exception_Handling_Task1 Task1.cpp )
+add_executable(Module4_Exception_Handling_Task2 Task2.cpp )
+add_executable(Module4_Exception_Handling_Task3 Task3.cpp )

@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module2\Basic_Memory_Management\CMakeFiles\module2_basic_memory_management_task1.dir\Task1.cpp.obj: dyndep
+

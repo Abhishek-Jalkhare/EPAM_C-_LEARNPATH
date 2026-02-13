@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build Module1\File_Managment\Task_5\CMakeFiles\file_management_task_5.dir\file_management_task_5.cpp.obj: dyndep
+

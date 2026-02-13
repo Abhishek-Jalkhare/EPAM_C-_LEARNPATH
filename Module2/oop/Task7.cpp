@@ -10,6 +10,7 @@
 
 #include <iostream>
 #include <ranges>
+#include <stdexcept>
 using namespace std;
 
 class Person {
@@ -28,7 +29,9 @@ public:
 
     void setName(const string & name) {
         if (name.empty()) {
-            __throw_invalid_argument("Name is empty");
+            throw std::invalid_argument("Name is empty");
+
+
         }
         this-> name = name;
     }
@@ -39,7 +42,7 @@ public:
 
     void setAge(const int age) {
         if ( age < 0) {
-            __throw_invalid_argument("age can't be negative");
+            throw std::invalid_argument("age can't be negative");
         }
         this-> age = age;
     }
@@ -60,7 +63,7 @@ public:
 
     void setRollNo (int rollNo) {
         if (rollNo <= 0) {
-            __throw_invalid_argument("RollNo can't be negative");
+            throw std::invalid_argument("RollNo can't be negative");
         }
         this->roLLNo = rollNo;
     }
@@ -71,7 +74,7 @@ public:
 
     void setGrade(char grade) {
         if (!(grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'E' || grade == 'F' )) {
-            __throw_invalid_argument("Invalid value for grade");
+            throw std::invalid_argument("Invalid value for grade");
         }
         this->grade = grade;
     }
@@ -100,7 +103,7 @@ public:
     }
     void setSubject(const string& subject) {
         if (subject.empty()) {
-            __throw_invalid_argument("subject can not be empty");
+            throw std::invalid_argument("subject can not be empty");
         }
         this->subject = subject;
     }
@@ -109,7 +112,7 @@ public:
     }
     void setSalary(double salary) {
         if (salary <= 0) {
-            __throw_invalid_argument("salary can't be negative");
+            throw std::invalid_argument("salary can't be negative");
         }
         this->salary = salary;
     }

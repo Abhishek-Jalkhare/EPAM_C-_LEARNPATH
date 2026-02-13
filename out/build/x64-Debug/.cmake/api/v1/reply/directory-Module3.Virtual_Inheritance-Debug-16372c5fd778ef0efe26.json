@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Module3/Virtual_Inheritance",
+		"source" : "Module3/Virtual_Inheritance"
+	}
+}

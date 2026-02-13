@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module1\\pointers\\CMakeFiles\\Module1_Pointers_basics.dir\\pointers.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module1\\pointers\\CMakeFiles\\Module1_Pointers_basics.dir\\pointers.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

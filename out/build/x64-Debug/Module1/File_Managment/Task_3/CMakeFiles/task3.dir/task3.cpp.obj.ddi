@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Module1\\File_Managment\\Task_3\\CMakeFiles\\task3.dir\\task3.cpp.obj",
+            "outputs": [
+                "C:\\CPP_DEV\\out\\build\\x64-Debug\\vc140.pdb",
+                "Module1\\File_Managment\\Task_3\\CMakeFiles\\task3.dir\\task3.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}
