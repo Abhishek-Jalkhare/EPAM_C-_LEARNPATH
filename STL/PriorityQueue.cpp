@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     cout<<sum;
 
 
-    priority_queue<int, vector<int> , greater<>> pq; // default max heap
+    priority_queue<int, vector<int> , greater<int>> pq; // default max heap
 
     pq.push(21);
     pq.push(291);
@@ -48,3 +48,9 @@ int main(int argc, char *argv[]) {
     }
 
 }
+
+struct A {
+    operator()() {
+
+    }
+};

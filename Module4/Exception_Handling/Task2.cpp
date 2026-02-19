@@ -28,7 +28,8 @@ void complexOperation() {
     count++;
     switch (count) {
     case 1 : {
-        throw SystemError{"System error encountered"};
+        string s = " abc";
+        throw SystemError{s};
 
     }
     case 2 : {

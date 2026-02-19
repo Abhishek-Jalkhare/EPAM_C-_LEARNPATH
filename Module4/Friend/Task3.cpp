@@ -41,6 +41,9 @@ int main(int argc, char* argv[]) {
     const Rectangle r1{1,2};
     cout<<compareArea(r1 , c)<<endl;
     // int p=nullptr;
-
+    // stod();
+    // stoi();
+    // to_string();
+    // to_string();
 
 }

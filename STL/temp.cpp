@@ -27,7 +27,16 @@ public:
 
 };
 
-int main(int argc, char* argv[]) {
-    Derived d;
 
+
+int main(int argc, char* argv[]) {
+    //Derived d;
+    double d = 100000.120003;
+
+    double temp = d * 100;
+    int t = temp;
+    double f = t;
+
+    bool res = (temp == f);
+    std::cout<<(res);
 }

@@ -14,12 +14,14 @@ public:
           height(height) {
     }
 
-    friend double vol(const Box& b);
+    friend double vol(const Box& b) {
+        return  b.length*b.breadth*b.height;
+    }
 };
 
-double vol(const Box& b) {
-    return  b.length*b.breadth*b.height;
-}
+// double vol(const Box& b) {
+//     return  b.length*b.breadth*b.height;
+// }
 
 int main(int argc, char* argv[]) {
     const Box box{2.0 , 3.0 , 5.0};

@@ -34,7 +34,9 @@ public:
         return os;
     }
 
-    friend Book loadFile(ifstream& file  );
+    friend Book loadFile(ifstream& file  ) ;
+
+
 
 };
 
@@ -42,19 +44,20 @@ public:
 
 
  Book loadFile(ifstream& file  ){
-    string title ;
-    string author;
-    double price;
-    if(!getline(file >> std::ws,title)) {
-        file.close();
-        throw runtime_error("EOF Reached");
-    }
-    getline(file , author);
-    file>>price;
-    file.ignore();
-    Book b{title , author , price};
-    return b;
+     string title ;
+     string author;
+     double price;
+     if(!getline(file >> std::ws,title)) {
+         file.close();
+         throw runtime_error("EOF Reached");
+     }
+     getline(file , author);
+     file>>price;
+     file.ignore();
+     Book b{title , author , price};
+     return b;
 }
+
 
 int main(int argc, char* argv[]) {
     const Book b{"abc" , "a" , 123.443};
