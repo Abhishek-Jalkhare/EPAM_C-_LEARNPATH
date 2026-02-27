@@ -1,0 +1,7 @@
+add_executable(Module5_Template_Namespace_Task1 Task1.cpp)
+add_executable(Module5_Template_Namespace_Task2 Task2.cpp)
+add_executable(Module5_Template_Namespace_Task3 Task3.cpp)
+add_executable(Module5_Template_Namespace_Task4 Task4.cpp)
+add_executable(Module5_Template_Namespace_Task5 Task5.cpp)
+add_executable(Module5_Template_Namespace_Task6 Task6.cpp)
+add_executable(Module5_Template_Namespace_Task7 Task7.cpp)

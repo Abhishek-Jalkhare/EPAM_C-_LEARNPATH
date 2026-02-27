@@ -1,0 +1,7 @@
+add_executable(Module5_Practice_Templates_basics basics.cpp)
+add_executable(Module5_Practice_Templates_basicsss temp.cpp)
+add_executable(Module5_Practice_Templates_forwarding_refrences forwarding_refrences.cpp)
+add_executable(Module5_Practice_Templates_forward forward.cpp)
+add_executable(Module5_Practice_Templates_forward_with_non_template forward_with_non_template.cpp)
+add_executable(Module5_Practice_Templates_variadic_template variadic_template.cpp)
+add_executable(Module5_Practice_Templates_prac prac.cpp)

@@ -20,7 +20,13 @@ int main(int argc, char* argv[]) {
     auto x=nm.c_str();
     auto y=nm.data();
     auto ptr=&nm[0];
+    map<int, int> mp;
+    mp[0] = 3;
+    mp[1] = 4;
+    mp[2] = 6;
+    for (auto i : mp) {
 
+    }
 
     priority_queue <int> pq;
 

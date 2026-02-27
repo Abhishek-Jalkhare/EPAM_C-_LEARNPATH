@@ -1,0 +1,3 @@
+add_subdirectory(Practice)
+add_subdirectory(Variadic_Templates)
+add_subdirectory(Template_Namespace)
