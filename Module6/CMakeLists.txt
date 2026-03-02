@@ -1,0 +1,2 @@
+add_subdirectory(Auto_Range_Based_Loops_InitiallizerList)
+add_subdirectory(practice)

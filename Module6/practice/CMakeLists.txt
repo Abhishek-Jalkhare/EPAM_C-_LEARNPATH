@@ -1,0 +1,2 @@
+add_executable(Module_6_Auto_Practice_auto auto.cpp)
+add_executable(abhishek abhishke.cpp)
