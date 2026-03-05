@@ -47,6 +47,7 @@ int main() {
     mat.printAndDouble();
     std::cout << "After doubling:" << std::endl;
     mat.print();
+    // cout<<(cout<<"aa",1)<<endl;
 
     return 0;
 }
