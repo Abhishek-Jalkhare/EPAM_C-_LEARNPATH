@@ -1,0 +1,1 @@
+add_executable(Module6_RAII_PIMPL_Task10  NetworkConnection.cpp main.cpp)
