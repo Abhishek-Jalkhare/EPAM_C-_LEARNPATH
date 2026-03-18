@@ -11,7 +11,7 @@
 class NetworkConnection {
 public:
     NetworkConnection(const std::string& ep);
-    ~NetworkConnection();
+    ~NetworkConnection() = default;
     bool isConnected() const;
     void sendData(const std::string& data);
 

@@ -34,7 +34,7 @@ NetworkConnection::NetworkConnection(const std::string& ep): impl(std::make_uniq
 
 }
 
-NetworkConnection::~NetworkConnection() = default;
+
 
 bool NetworkConnection::isConnected() const {
     return impl->connected;
