@@ -1,3 +1,5 @@
 add_subdirectory(Auto_Range_Based_Loops_InitiallizerList)
 add_subdirectory(CallBack_Functor_Lambda)
+add_subdirectory(Move_Semantics)
+add_subdirectory(RAII_PIMPL)
 add_subdirectory(practice)

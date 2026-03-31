@@ -48,7 +48,7 @@ public:
         this->id = id;
     }
 
-    [[nodiscard]] virtual  double calculatePay() const = 0;
+   [[nodiscard]] virtual  double calculatePay() const = 0;
     virtual ~Employee() = default;
 };
 
@@ -122,6 +122,8 @@ int main(int argc, char* argv[]) {
         new SalariedEmployee("abc" , 12 , 4564) ,
         new HourlyEmployee("def" , 11, 5000 , 40)
     };
+
+
 
     for (Employee * e : emp) {
         cout<<"---Employeee----"<<endl

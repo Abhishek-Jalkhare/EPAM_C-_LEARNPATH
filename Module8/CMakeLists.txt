@@ -1,0 +1,18 @@
+
+add_subdirectory(Practice)
+add_executable(Module8_Task1 Task1.cpp)
+add_executable(Module8_Task2 Task2.cpp)
+add_executable(Module8_Task3 Task3.cpp)
+add_executable(Module8_Task4 Task4.cpp)
+add_executable(Module8_Task5 Task5.cpp)
+add_executable(Module8_Task6 Task6.cpp)
+add_executable(Module8_Task7 Task7.cpp)
+add_executable(Module8_Task8 Task8.cpp)
+add_executable(Module8_Task9 Task9.cpp)
+add_executable(Module8_Task10 Task10.cpp)
+add_executable(Module8_Task11 Task11.cpp)
+add_executable(Module8_Task12 Task12.cpp)
+add_executable(Module8_Task13 Task13.cpp)
+add_executable(Module8_Task14 Task14.cpp)
+add_executable(Module8_Task15 Task15.cpp)
+

@@ -1,0 +1,1 @@
+add_executable(Module6_RAII_PIMPL_Task7 Widget.cpp Task7.cpp)

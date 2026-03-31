@@ -1,2 +1,4 @@
 add_executable(Module_6_Auto_Practice_auto auto.cpp)
+add_executable(Module_6_Practice_cpp_98 cpp_98.cpp)
+add_executable(Module_6_Practice_data_type data_type_func.cpp)
 add_executable(abhishek abhishke.cpp)
