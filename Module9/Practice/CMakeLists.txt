@@ -1,0 +1,7 @@
+add_executable(Module_practice_practice1 practice1.cpp)
+add_executable(Module_practice_practice2 practice2.cpp)
+add_executable(Module_practice_practice3 practice3.cpp)
+add_executable(Module_practice_practice4 practice4.cpp)
+add_executable(Module_practice_practice5 practice5.cpp)
+add_executable(Module_practice_future future.cpp)
+add_executable(Module_practice_delete delete_delete[]_behaviour.cpp)
