@@ -1,0 +1,2 @@
+add_executable(Module11_CRT_Task1 Task1.cpp)
+add_executable(Module11_CRT_Task3 Task3.cpp)

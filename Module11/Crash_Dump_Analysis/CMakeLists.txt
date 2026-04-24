@@ -1,0 +1,6 @@
+add_executable(Module11_Crash_Dump_Analysis_Task1 Task1.cpp)
+add_executable(Module11_Crash_Dump_Analysis_Task2 Task2.cpp)
+add_executable(Module11_Crash_Dump_Analysis_Task3 Task3.cpp)
+add_executable(Module11_Crash_Dump_Analysis_Task4 Task4.cpp)
+add_executable(Module11_Crash_Dump_Analysis_Task5 Task5.cpp)
+add_executable(Module11_Crash_Dump_Analysis_Task6 Task6.cpp)

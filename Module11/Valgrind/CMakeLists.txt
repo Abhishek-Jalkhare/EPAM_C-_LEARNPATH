@@ -1,0 +1,6 @@
+add_executable(Valgrind_Task3 Task3.cpp)
+add_executable(Valgrind_Task4 Task4.cpp)
+add_executable(Valgrind_Task8 Task8.cpp)
+add_executable(Valgrind_Task9 Task9.cpp)
+add_executable(Valgrind_Task10 Task10.cpp)
+add_executable(Valgrind_Task11 Task11.cpp)

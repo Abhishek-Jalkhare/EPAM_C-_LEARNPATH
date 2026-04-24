@@ -1,0 +1,6 @@
+add_executable(Module11_Task7 Task7.cpp)
+add_executable(Module11_Task8 Task8.cpp)
+add_executable(Module11_Task9 Task9.cpp)
+add_executable(Module11_Task10 Task10.cpp)
+add_executable(Module11_Task11 Task11.cpp)
+add_executable(Module11_Task12 Task12.cpp)

@@ -8,6 +8,6 @@ add_executable(que que.cpp)
 add_executable(pq PriorityQueue.cpp)
 add_executable(set set.cpp)
 
-add_executable(temp temp.cpp)
+
 add_executable(virtual_upcast virtual_upcast.cpp)
 add_executable(stringss stringss.cpp)
