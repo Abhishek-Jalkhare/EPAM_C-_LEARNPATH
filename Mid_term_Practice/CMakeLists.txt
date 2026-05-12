@@ -1,0 +1,6 @@
+add_executable(Mid_term_Practice_namespace namespace.cpp)
+add_executable(Mid_term_Practice_auto auto.cpp)
+add_executable(Mid_term_Practice_Intialiser Intialiser_List.cpp)
+add_executable(Mid_term_Practice_callable callable.cpp)
+add_executable(Mid_term_Practice_rvo_check RVO_Check.cpp)
+add_executable(Mid_term_Practice_NoExpect_overload NoExpect_overload.cpp)
